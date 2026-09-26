@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -217,24 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-=======
-# Ignore model files
+# Project-specific ignores
+# Model binaries are large; keep model configuration files trackable.
 *.h5
 *.pth
 *.pt
 *.weights
 
-# Ignore data and logs
-*.csv
-*.log
+# Local datasets and generated logs
 data/
 logs/
 
-# Ignore environment files
-env/
-venv/
-__pycache__/
-
-# Ignore Jupyter checkpoints
-.ipynb_checkpoints/
 
