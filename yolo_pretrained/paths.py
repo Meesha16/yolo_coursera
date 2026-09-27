@@ -4,3 +4,4 @@ base_dir = Path(__file__).resolve().parent
 image_path = base_dir / "images" / "testing" / "scene2.jpg"
 config_path = base_dir / "model" / "yolov3.config"
 weights_path = base_dir / "model" / "yolov3.weights"
+video_path = base_dir/"images"/"testing"/"video_sample2.mp4"
